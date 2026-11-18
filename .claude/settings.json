@@ -1,8 +1,0 @@
-{
-  "enabledPlugins": {
-    "agent-teams@claude-code-workflows": true
-  },
-  "env": {
-    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
-  }
-}
