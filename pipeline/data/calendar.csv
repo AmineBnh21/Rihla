@@ -1,0 +1,22 @@
+event,start_date,end_date,country,zone,note
+ramadan_debut,2027-02-08,2027-03-09,ALL,,1er Ramadan 1448 attendu le lundi 8 février 2027 (calcul astronomique; CTMF; Centre international d'astronomie); peut glisser d'un jour selon l'observation de la lune; end_date = dernier jour de jeûne si l'Aïd tombe le 10 mars
+eid_al_fitr,2027-03-10,2027-03-10,ALL,,estimation astronomique : peut varier d'un jour selon l'observation de la lune (croissant invisible le 8 mars au soir en Algérie et en France donc Aïd probable le 10 mars; Arabie saoudite et CTMF annoncent le 9 mars)
+eid_al_adha,2027-05-17,2027-05-17,ALL,,estimation astronomique : peut varier d'un jour selon l'observation de la lune (certaines sources donnent le dimanche 16 mai)
+vacances_toussaint,2026-10-17,2026-11-02,FR,A,zone A (Lyon) ; start_date = fin des cours ; end_date = jour de reprise des cours ; déjà passées
+vacances_toussaint,2026-10-17,2026-11-02,FR,B,zone B (Marseille) ; start_date = fin des cours ; end_date = jour de reprise des cours ; déjà passées
+vacances_toussaint,2026-10-17,2026-11-02,FR,C,zone C (Paris) ; start_date = fin des cours ; end_date = jour de reprise des cours ; déjà passées
+vacances_noel,2026-12-19,2027-01-04,FR,A,zone A (Lyon) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_noel,2026-12-19,2027-01-04,FR,B,zone B (Marseille) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_noel,2026-12-19,2027-01-04,FR,C,zone C (Paris) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_hiver,2027-02-13,2027-03-01,FR,A,zone A (Lyon) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_hiver,2027-02-20,2027-03-08,FR,B,zone B (Marseille) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_hiver,2027-02-06,2027-02-22,FR,C,zone C (Paris) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_printemps,2027-04-10,2027-04-26,FR,A,zone A (Lyon) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_printemps,2027-04-17,2027-05-03,FR,B,zone B (Marseille) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_printemps,2027-04-03,2027-04-19,FR,C,zone C (Paris) ; start_date = fin des cours ; end_date = jour de reprise des cours
+vacances_ete,2027-07-03,2027-09-02,FR,A,zone A (Lyon) ; start_date = fin des cours ; end_date = jour de reprise des cours des élèves
+vacances_ete,2027-07-03,2027-09-02,FR,B,zone B (Marseille) ; start_date = fin des cours ; end_date = jour de reprise des cours des élèves
+vacances_ete,2027-07-03,2027-09-02,FR,C,zone C (Paris) ; start_date = fin des cours ; end_date = jour de reprise des cours des élèves
+pont_ascension,2027-05-07,2027-05-07,FR,,pont de l'Ascension (Ascension le jeudi 6 mai 2027) ; pas de cours le vendredi 7 mai ; toutes zones
+vacances_hiver,2026-12-17,2027-01-03,DZ,,départ le jeudi 17 décembre au soir ; reprise le dimanche 3 janvier au matin ; calendrier du ministère de l'Éducation nationale rapporté par la presse
+vacances_printemps,2027-03-18,2027-04-04,DZ,,départ le jeudi 18 mars au soir ; reprise le dimanche 4 avril au matin ; calendrier du ministère de l'Éducation nationale rapporté par la presse

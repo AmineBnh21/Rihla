@@ -1,0 +1,31 @@
+# Lignes suivies chaque jour.
+# Codes IATA de ville : PAR couvre CDG et ORY.
+origins: [LYS, MRS, PAR]
+destinations: [ALG, ORN, CZL]
+
+# Relever aussi le sens retour (Algérie -> France), en aller simple.
+both_directions: true
+
+# Départs de J+7 à J+330 (environ 11 mois) : toute l'année, pas seulement l'Aïd.
+# Environ 12 mois x 18 trajets = ~216 requêtes par jour (limite API : 600 par minute).
+horizon_days:
+  min: 7
+  max: 330
+
+# Zone de vacances scolaires de chaque aéroport de départ (calendar.csv).
+zones:
+  LYS: A
+  MRS: B
+  PAR: C
+
+currency: eur
+
+# Marché Aviasales dont on lit le cache. Sans ce paramètre, l'API choisit le
+# marché d'après la ville de départ, et retombe sur "ru" si elle n'en trouve pas :
+# il n'existe pas de marché Algérie, donc les trajets ALG/ORN/CZL -> France
+# tomberaient sur le cache russe. "fr" = recherches faites sur aviasales.fr.
+market: fr
+
+# L'API Data de Travelpayouts ne renvoie que des prix pour 1 adulte.
+# Le prix famille sera estimé dans advisor/ à partir de ce prix.
+passengers: 1A

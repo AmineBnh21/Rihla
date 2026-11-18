@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.local
+
+# python
+.venv/
+__pycache__/
+*.pyc
+pipeline/data/out/
+
+# node / next
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# os
+.DS_Store
+Thumbs.db
+
+# outils de design (captures, photos originales téléchargées)
+.taste-skill/
+assets/

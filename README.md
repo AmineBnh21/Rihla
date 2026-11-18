@@ -181,7 +181,7 @@ npm run dev                          # http://localhost:3000
 | `airline` | AH |
 | `price_eur` | 1948 |
 | `days_to_departure` | 109 |
-| `days_to_eid` | 111 |
+| `days_to_eid` | 2 (Aïd − date de départ) |
 
 **Table `advice`** : le conseil du jour pour chaque combinaison (`status` = `book` / `watch` / `wait`, `reason`, `cheaper_option`).
 
@@ -195,7 +195,7 @@ npm run dev                          # http://localhost:3000
 - [ ] **2. Source de données** : compte Travelpayouts, vérifier ce que l'API couvre vraiment pour l'Algérie
 - [ ] **3. Collecteur** : script quotidien + GitHub Actions + Supabase ⚠️ *à lancer en premier, chaque jour non collecté est perdu*
 - [ ] **4. Calendrier** : Aïd al-Fitr et Aïd al-Adha 2027, vacances FR (A/B/C) et DZ
-- [ ] **5. Conseil v0** : règles par percentiles et nombre de jours avant l'Aïd, écrites dans `advice`
+- [x] **5. Conseil v0** : règles par percentiles et nombre de jours avant l'Aïd, écrites dans `advice`
 - [ ] **6. Site, pages Accueil et Résultat** : formulaire, prix famille, conseil, option moins chère
 - [ ] **7. Page Observatoire** et page **Comment ça marche**
 - [ ] **8. Alertes e-mail** et bouton **Partager sur WhatsApp**
